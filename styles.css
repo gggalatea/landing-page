@@ -14,11 +14,11 @@ body {
 }
 
 .header {
-    background-color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60px;
+    background-color: #1f2937;
 }
 
 .container {
@@ -49,4 +49,52 @@ body {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 460px;
+    background-color: #1f2937;
+}
+
+.hero .container {
+    gap: 40px;
+}
+
+.hero-image {
+    background-color: darkgrey;
+    width: 520px;
+    height: 230px;
+    flex-shrink: 0;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    margin: 0px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero p {
+    margin: 0px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #3882f6;
+    padding: 8px 35px;
+    display: inline-flex;
+    border-radius: 8px;
+    margin-top: 10px;
 }
