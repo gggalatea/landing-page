@@ -24,6 +24,9 @@ body {
 .container {
     display: flex;
     width: 1000px;
+}
+
+.header .container {
     justify-content: space-between;
     align-items: center;
 }
