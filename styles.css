@@ -229,7 +229,8 @@ body {
     height: 100px;
 }
 
-.footer-text {
+.footer p {
     color: #f9faf8;
     font-size: 18px;
+    margin: 0px;
 }
