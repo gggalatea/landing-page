@@ -106,7 +106,6 @@ body {
 }
 
 .info .container {
-    display: flex;
     flex-direction: column;
     padding: 0px 100px;
 }
@@ -123,7 +122,7 @@ body {
 .boxes {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
 }
 
 .box {
@@ -146,4 +145,35 @@ body {
     text-align: center;
     font-size: 17px;
     color: #1f2937;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.quote .container {
+    flex-direction: column;
+    padding: 140px 105px;
+}
+
+.quote-text,
+.quote-name {
+    margin: 0px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-name {
+    align-self: flex-end;
+    font-weight: 900;
+    color: #1f2937;
+    font-size: 24px;
+    margin-right: 35px;
 }
