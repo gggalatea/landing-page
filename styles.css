@@ -88,7 +88,8 @@ body {
     color: #e5e7eb;
 }
 
-.hero a {
+.hero a,
+.call-to-action a {
     text-decoration: none;
     color: #f9faf8;
     font-size: 18px;
@@ -97,6 +98,9 @@ body {
     padding: 8px 35px;
     display: inline-flex;
     border-radius: 8px;
+}
+
+.hero a {
     margin-top: 10px;
 }
 
@@ -172,8 +176,47 @@ body {
 
 .quote-name {
     align-self: flex-end;
-    font-weight: 900;
+    font-weight: 700;
     color: #1f2937;
     font-size: 24px;
     margin-right: 35px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action .container {
+    background-color: #3882f6;
+    padding: 50px 105px;
+    border-radius: 8px;
+    margin: 100px 0px;
+}
+
+.call-to-action-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.call-to-action h3,
+.call-to-action p {
+    margin: 0px;
+}
+
+.call-to-action h3 {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.call-to-action p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.call-to-action a {
+    border: 2px solid #f9faf8;
 }
